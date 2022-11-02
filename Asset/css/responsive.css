@@ -1,0 +1,31 @@
+@media only screen and (max-width:560px) {
+    .product {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+           "features" 
+           "demo"
+        ;
+    }
+
+    .features .content-body{
+        grid-area: content-body;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .header {
+        grid-area: header;
+        height: 10vh;
+        background-color: #2b4386;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+           "logo"
+           "menu"
+        ;
+    }
+
+    .menu {
+        justify-content: center;
+    }
+}
