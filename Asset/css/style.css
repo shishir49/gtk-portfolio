@@ -193,6 +193,7 @@ a:hover {
     grid-area: content-headline;
     color: #90aaf5;
     /* color: #15ff59; */
+    padding: 0 30px;
 }
 
 .features .content-body{
@@ -200,6 +201,7 @@ a:hover {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
     grid-gap: 10px;
+    padding: 0 30px;
 }
 
 .bullets {
