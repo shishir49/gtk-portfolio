@@ -227,6 +227,10 @@ a:hover {
     color: white;
 }
 
+.demo:hover {
+    opacity: 0.9;
+}
+
 .pricing {
     grid-area: pricing;
     background-color: #cedbff;
