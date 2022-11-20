@@ -20,8 +20,8 @@
             <img src="Asset/images/logo.png" alt="Logo" srcset="">
         </div>
         <div class="menu">
-            <a href="#product">Watch a Demo</a>
-            <a href="#pricing">Price</a>
+            <a href="#product" class="txt-bg-round bg-redish p-y-20">Watch a Demo</a>
+            <!-- <a href="#pricing">Price</a> -->
             <a href="#footer">Contact Us</a>
         </div>
     </div>
@@ -29,22 +29,25 @@
         <div class="content-segment product" id="product">
             <div class="features">
                 <div class="content-headline">
-                    <h2>Check The Most Advanced MCQ Test Software</h2>
+                    <h2>Check The Most Advanced Academy Management System</h2>
                 </div>
                 <div class="content-body">
-                    <p class="bullets"><span class="check-icon"><i class="fa-solid fa-check"></i></span> Create, Download Unlimited Tests !</p>
-                    <p class="bullets"><span class="check-icon"><i class="fa-solid fa-check"></i></span> Create Entire Test in 2 submit clicks !</p>
-                    <p class="bullets"><span class="check-icon"><i class="fa-solid fa-check"></i></span> Set up Time and Force submission</p>
-                    <p class="bullets"><span class="check-icon"><i class="fa-solid fa-check"></i></span> Negetive Scoring</p>
-                    <p class="bullets"><span class="check-icon"><i class="fa-solid fa-check"></i></span> Instant Result publication</p>
+                    <p class="bullets"><span class="check-icon"><i class="fa-solid fa-check"></i></span> Most Advanced MCQ Testing System</p>
+                    <p class="bullets"><span class="check-icon"><i class="fa-solid fa-check"></i></span> Entire Test in 1 submit click !</p>
+                    <p class="bullets"><span class="check-icon"><i class="fa-solid fa-check"></i></span> All Academic Procedure in 1</p>
+                    <p class="bullets"><span class="check-icon"><i class="fa-solid fa-check"></i></span> Auto Generates Students Performance</p>
+                    <p class="bullets"><span class="check-icon"><i class="fa-solid fa-check"></i></span> Online Notice Board, Schedule, etc.</p>
                     <p class="bullets"><span class="check-icon"><i class="fa-solid fa-check"></i></span> Student Ranking based on their Score</p>
-                    <p class="bullets"><span class="check-icon"><i class="fa-solid fa-check"></i></span> Student Test Results with details</p>
+                    <p class="bullets"><span class="check-icon"><i class="fa-solid fa-check"></i></span> Student Results with details + Certificates</p>
                 </div>
             </div>
-            <a  class="demo" href="https://mathematoz.com">
+            <a class="demo" href="https://session.jororiseba.com">
             </a>
+            <div class="click-image">
+                <img src="Asset/images/click.png" width="70%" height="100" alt="" srcset="">
+            </div>
         </div>
-        <div class="content-segment pricing" id="pricing">
+        <!-- <div class="content-segment pricing" id="pricing">
             <div class="content-headline center">
                 <h2>Pricing Table</h2>
             </div>
@@ -104,7 +107,7 @@
                     </tbody>
                 </table>
             </div>
-        </div>
+        </div> -->
         <!-- <div class="contact-form" id="contact-form">
             <div class="content-headline">
                 <h2>Ask a Question</h2>
@@ -133,10 +136,12 @@
         </div> -->
     </div>
     <div class="footer" id="footer">
-        <h2>Contact Us</h2>
-        <p><i class="fa-solid fa-phone-volume"></i> +880 1773-134268, +88 01781410322</p>
-        <p><i class="fa-solid fa-envelope"></i> gtkgroup1956@gmail.com</p>
-        <p><i class="fa-solid fa-location-dot"></i> House -15/ Sector -18/ Uttara / Dhaka-1230</p>
+        <div class="footer-content">
+            <h2>Contact Us</h2>
+            <p><i class="fa-solid fa-phone-volume"></i> +880 1773-134268, +88 01781410322</p>
+            <p><i class="fa-solid fa-envelope"></i> contact@gtk.jororiseba.com</p>
+            <p><i class="fa-solid fa-location-dot"></i> House -15/ Sector -18/ Uttara / Dhaka-1230</p>
+        </div>
     </div>
 </body>
 </html>

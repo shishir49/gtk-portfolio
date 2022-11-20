@@ -16,8 +16,8 @@ body {
 
 .fa-check {
    border-radius: 50%;
-   background-color: #2b4386;
-   color: white;
+   background-color: #ff6262;
+   color: #fff040;
    font-size: 20px;
    padding: 5px;
 }
@@ -59,8 +59,24 @@ a:hover {
     opacity: 0.8;
 }
 
+.txt-bg-round {
+    border-radius: 30px;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-redish {
+    background-color: #ff6262;
+}
+
+.p-y-20 {
+    padding: 10px !important;
+}
+
 .content-segment {
-    padding: 80px 0;
+    padding: 80px 30px;
 }
 
 .custom-table {
@@ -123,6 +139,7 @@ a:hover {
     grid-template-areas:
        "logo menu"
     ;
+    padding: 0 30px;
 }
 
 .logo {
@@ -133,8 +150,10 @@ a:hover {
     overflow: hidden;
 }
 
+/* Font Name : franken deutsch  */
+
 .logo img {
-    height: 150%;
+    width: 100%;
     cursor: pointer;
 }
 
@@ -174,9 +193,12 @@ a:hover {
     background-color: #2b4386;
     display: grid;
     grid-template-columns: 0.7fr 0.3fr;
+    grid-template-rows: 1.8fr 0.1fr;
     grid-template-areas:
        "features demo"
+       "features click-image"
     ;
+    grid-gap: 30px;
 }
 
 .features {
@@ -191,9 +213,8 @@ a:hover {
 
 .features .content-headline{
     grid-area: content-headline;
-    color: #90aaf5;
+    color: #fff040;
     /* color: #15ff59; */
-    padding: 0 30px;
 }
 
 .features .content-body{
@@ -201,7 +222,6 @@ a:hover {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
     grid-gap: 10px;
-    padding: 0 30px;
 }
 
 .bullets {
@@ -210,6 +230,7 @@ a:hover {
     border-radius: 5px;
     font-weight: 600;
     font-size: 18px;
+    color: #304150;
 }
 
 .demo {
@@ -218,7 +239,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     /* background-color: cornflowerblue; */
-    background-image: url('../../Asset/images/portfolio.png');
+    background-image: url('../../Asset/images/portfolio-session.png');
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -231,6 +252,13 @@ a:hover {
     opacity: 0.9;
 }
 
+.click-image {
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    display: flex;
+    justify-content: center;
+}
+
 .pricing {
     grid-area: pricing;
     background-color: #cedbff;
@@ -240,8 +268,6 @@ a:hover {
     display: flex;
     justify-content: center;
 }
-
-
 
 .contact-form {
     grid-area: contact-form;
@@ -253,12 +279,23 @@ a:hover {
 .footer {
     grid-area: footer;
     height: 15vh;
-    background-color: #2b4386;
+    background-color: #1d2d5a;
     color: white;
     font-size: 15px;
     padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.footer p{
-    align-self: center;
+.footer .footer-content h2 {
+    padding: 10px 0;
 }
+
+.footer .footer-content p {
+    padding: 1px 0;
+}
+
+/* .footer p{
+    align-self: center;
+} */
