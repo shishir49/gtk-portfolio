@@ -138,7 +138,8 @@
     <div class="footer" id="footer">
         <div class="footer-content">
             <h2>Contact Us</h2>
-            <p><i class="fa-solid fa-phone-volume"></i> +880 1773-134268, +88 01781410322</p>
+<!--             <p><i class="fa-solid fa-phone-volume"></i> +880 1773-134268, +88 01781410322</p> -->
+            <p><i class="fa-solid fa-phone-volume"></i> +88 01781410322</p>
             <p><i class="fa-solid fa-envelope"></i> contact@gtk.jororiseba.com</p>
             <p><i class="fa-solid fa-location-dot"></i> House -15/ Sector -18/ Uttara / Dhaka-1230</p>
         </div>
